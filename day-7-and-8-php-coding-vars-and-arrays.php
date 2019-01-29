@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Day 6 of coding with 100 days of coding - PHP variables and arrays.</title>
+	<title>Day 7 and 8 coding with 100 days of coding - PHP variables and arrays.</title>
 </head>
 <body>
 	<h1>PHP vriables</h1>
