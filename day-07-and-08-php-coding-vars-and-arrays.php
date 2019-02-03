@@ -97,7 +97,7 @@
 
 		echo "<br>";
 		echo "<br>";
-		echo "<h4><i>Using a foreach loop with an array</i></h4>"; # Echoing put HTML heading tag in PHP.
+		echo "<h4><i>Using a foreach loop with an array</i></h4>"; # Echoing out HTML heading tag in PHP.
 
 		echo "<p>Using a foreach loop to view the values that are stored inside the array.</p>";
 
