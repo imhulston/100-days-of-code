@@ -64,7 +64,7 @@
 				Decrement by one. Value is now 10.
 			*/
 		
-			$value = 8; //Assigned the value 8 to the varaible.
+			$value = 8; //Assigned the value 8 to the variable.
 			echo "The value is now $value. <br>"; //Include the variable to print the value in string statement.
 			$value += 2; //Reassigned the value.
 			echo "Add 2. The value is now $value. <br>";
