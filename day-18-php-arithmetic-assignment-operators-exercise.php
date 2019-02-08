@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>DAY 18 - PHP ARYTHMETIC ASSIGNMENT OPERATORS EXERCISE</title>
+		<title>DAY 18 - PHP ARITHMETIC ASSIGNMENT OPERATORS EXERCISE</title>
 	</head>
 	<body>
 		<h1>Arithmetic Assignment Operators Exercise</h1>
