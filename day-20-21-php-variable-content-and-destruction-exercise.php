@@ -28,5 +28,24 @@
 		var_dump($x);
 	?>
 
+
+	<h2>Next Exercise - Concatenation of String</h2>
+
+		<p>For this PHP exercise, write a script using the following variable:
+		$around="around";</p>
+
+		<p>Single quotes and double quotes don't work the same way in PHP. Using single quotes (' ') and the concatenation operator, echo the following to the browser, using the variable you created:</p>
+
+		<p>What goes around comes around.</p>
+
+	<?php
+		$around = "around";
+
+		echo 'What goes ' . $around . ' comes ' . $around . '.';
+		echo "<br>";
+		echo "<br>";
+		echo "What goes $around comes $around."; // using 'variable substitution' with this echo and double quotes. This method can not be used with single quotes.
+	?>
+
 </body>
 </html>
