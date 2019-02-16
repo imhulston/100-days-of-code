@@ -49,6 +49,36 @@ echo <<<_END
 
 			- $author.
 _END;
-		?> 
+		?>
+
+		<hr>
+		<p>The paragraph directly above is written with the following PHP code:</p>
+		<h4>echo <<<_END</h4>
+			<h4>Debugging is twice as hard as writing it in the first place.
+			Therefore, if you write code as cleverly as possible, you are by definition not smart enough to debug it.</h4>
+
+			<h4>- $author.</h4>
+<h4>_END;</h4>
+
+		<p>Because the <<<_END and _END cannot have any white space, tab space or comments on the same line, I prefer to place them at the beginning of the line.</p><p>The <<<_END aftet the stating the echo command irritates me slightly in my code. So I tried to see if the <strong>echo statemetn</strong> will still run even when placeing the <<<_END command at the beginning of the next line after the <strong>echo</strong>. <br>
+
+		<p>As far as I am aware, the code still runs, as I have tried it. The next paragraph should be the same paragraph again but placing the <<<_END after the <strong>echo</strong>:
+		<br>
+		<h2></h2> <!-- Just using the tag to quickly create spacing before displaying the paragraph below. -->
+
+		<?php
+		echo 
+<<<_END
+			Debugging is twice as hard as writing it in the first place.
+			Therefore, if you write code as cleverly as possible, you are by definition not smart enough to debug it.
+			<br>
+			- $author.
+_END;
+		?>
+
+
+		<?php
+			echo "<p>And you can still use the HTML elements such as, the break tag place the echoed string on seperate lines.</p>"
+		?>
 </body>
 </html>
