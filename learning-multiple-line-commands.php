@@ -80,5 +80,23 @@ _END;
 		<?php
 			echo "<p>And you can still use the HTML elements such as, the break tag place the echoed string on seperate lines.</p>"
 		?>
+
+		<br><br><br><br>
+		<p><strong>For example, the php code displayed blow is what is used to display the paragraph above:</strong></p>
+		<p><?php</p>
+		<p>echo</p> 
+<p><<<_END</p>
+			<p>Debugging is twice as hard as writing it in the first place.
+			Therefore, if you write code as cleverly as possible, you are by definition not smart enough to debug it.</p>
+			<p>< br ></p>
+			<p>- $author.</p>
+<p>_END;</p>
+		<p>?></p>
+
+		<br><br><br><br>
+
+		<h4>The code php code above tells PHP to output everything between the two _END tags as if it were a double stringed quote.</h4>
+		<h4>Quotes in <strong>HEREDOC</strong> do nit need to be escaped.</h4>
+		<h4>This means it is possible for a developer to write entire sections of HTML directly into PHP code and then just replace specific dynamic parts with PHP variables.</h4>
 </body>
 </html>
