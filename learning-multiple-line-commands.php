@@ -98,5 +98,10 @@ _END;
 		<h4>The code php code above tells PHP to output everything between the two _END tags as if it were a double stringed quote.</h4>
 		<h4>Quotes in <strong>HEREDOC</strong> do nit need to be escaped.</h4>
 		<h4>This means it is possible for a developer to write entire sections of HTML directly into PHP code and then just replace specific dynamic parts with PHP variables.</h4>
+
+		<h4>Once I hace closed the multiple line block, I am free to use the same name tag again.</h4>
+
+		<h4><strong><i>**NOTE**</i></strong> I don't need to use (\n) backslash n to add a new line in the outputted text. Just using the return key to place the text on a new line.</h4>
+		<h4>Also, free to use single and double quotes withing the <strong>Heredoc</strong> without escaping them with a backslash.</h4>
 </body>
 </html>
