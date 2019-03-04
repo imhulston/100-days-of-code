@@ -18,13 +18,29 @@
 			</ul>
 
 			<?php
+
+			# Using the gettype function to output the value type that has been assigned to the $whatsit variable.
+
 				echo "<h2>PHP code/answer below!</h2>";
 
 				$whatsit = "Hello World";
-				echo "The value is " . gettype($whatsit) . ".<br>\n"; // Using the gettype function to display the value type that is stored inside the $whatsit variable - which is a string value.
+				echo "The value is " . gettype($whatsit) . ".<br>\n"; 
 
 				$whatsit = 0.123456;
 				echo "The value is " . gettype($whatsit) . ".<br>\n"; 
+
+				$whatsit = TRUE;
+				echo "The value is " . gettype($whatsit) . ".<br>\n";
+
+				$whatsit = 123456789;
+				echo "The value is " . gettype($whatsit) . ".<br>\n";
+
+				$whatsit = null;
+				echo "The value is " . gettype($whatsit) . ".<br>\n";
+
+				echo "<br>";
+
+				echo '<p>To acheive the same output above, I have altered the value of $whatsit variable and used the <strong>gettype function</strong> with the echo statement to output the type of value given to the variable.</p>';
 
 			?>
 	</body>
